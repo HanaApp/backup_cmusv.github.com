@@ -1,28 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>HanaApp.github.com by HanaApp</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-    <div class="wrapper">
+    <a id="forkme_banner" href="https://github.com/HanaApp">View on GitHub</a>
+    <div class="shell">
+
       <header>
-        <h1>HanaApp.github.com</h1>
-        <p>Web page for HANA App</p>
-
-
-        <p class="view"><a href="https://github.com/HanaApp">View My GitHub Profile</a></p>
-
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>HanaApp.github.com</h1>
+            <h2>Web page for HANA App</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
       </header>
-      <section>
+
+      <div id="no-downloads">
+        <span class="inner">
+        </span>
+      </div>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <blockquote>
 <h2>Welcome to Open Source SAP HANA App Community</h2>
 
@@ -33,11 +55,21 @@
 
 <p><em><strong>Please Note</strong></em>: Non members have only read access to the community applications. Please send email to  <a href="mailto:cmusvhana@gmail.com">cmusvhana@gmail.com</a> for becoming a member of this community and creating a git repository (Project).</p>
       </section>
+
       <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>Projects by <a href="https://github.com/HanaApp">HanaApp</a> can be found on <a href="https://github.com/HanaApp">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
   </body>
 </html>
